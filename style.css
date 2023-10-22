@@ -1,0 +1,96 @@
+/* Apply basic styles to the body and heading */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* Style the item list container */
+#item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Style individual item cards */
+#item-list > div {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Style the "Add New Item" button */
+#add-item-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+}
+#delete-item-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;  
+}
+#browse-item-button{
+    display: block;
+    margin: 20px auto;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;  
+}
+#search-item-button{
+    display: block;
+    margin: 20px auto;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;  
+}
+
+
+/* Style buttons within item cards */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #007acc;
+}
