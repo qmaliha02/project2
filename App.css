@@ -1,0 +1,90 @@
+.App {
+display: flex;
+height: 100vh;
+flex-direction: column;
+}
+ body{
+  margin: 0;
+  padding: 0;
+ }
+
+.CreateItem {
+
+  height: 400px;
+  width: 100%;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: royalblue;
+font-size: 15px;
+
+
+}
+
+.CreateItem input{
+
+width: 200px;
+height: 50px;
+font-size: 18px;
+margin: 10px;
+padding-left: 10px;
+
+}
+
+.CreateItem button{
+
+  border: none;
+  width: 150px;
+  height: 50px;
+  background-color: lightblue;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.listofitems {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 20px;
+
+}
+
+.ItemContainer{
+
+display: flex;
+flex-direction: row;
+margin: 10px;
+}
+
+.ItemDisplay2{
+width: 500px;
+height: 60px;
+
+font-family: 'Courier New', Courier, monospace;
+font-size: xx-small;
+display: flex;
+
+
+}
+
+.ItemDisplay2 h1{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.ItemContainer button{
+
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  background-color: lightblue;
+ color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
